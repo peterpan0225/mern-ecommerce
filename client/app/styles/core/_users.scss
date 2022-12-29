@@ -1,0 +1,30 @@
+.users-dashboard {
+  .u-list {
+    .user-box {
+      border-radius: $border-radius-default;
+      box-shadow: $box-shadow-primary;
+    }
+  }
+}
+
+/* start user role styles */
+.role {
+  padding: 8px 10px;
+  border-radius: $border-radius-default;
+  font-weight: $font-weight-normal;
+
+  &.admin {
+    background-color: $primary-bg;
+    color: $white;
+  }
+
+  &.merchant {
+    background-color: $dark-bg;
+    color: $white;
+  }
+
+  &.member {
+    background-color: $secondary-bg;
+  }
+}
+/* end user role styles */
